@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  margin-left: 30px;
+  padding-top: 50px;
+}
+
+.username {
+  display: flex;
+  margin-bottom: 20px;
+  height: 70px;
+  width: 200px;
+  align-content: center;
+}
+.password {
+  display: flex;
+}
+.loginCss {
+  width: 50px;
+  height: 20px;
+}
+
+input {
+  width: 100px;
+  height: 20px;
+  margin-top: 14px;
+  margin-left: 10px;
+}
+
+.secton-1 {
+  background-image: url(/static/img/photo-for-project.avif);
+}

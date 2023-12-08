@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/icon.css">
+
+    <title>Quick note</title>
+  </head>
+  <body>
+    <h1>Quick note</h1>
+
+    <div class="navbar-wrap">
+      <nav class="navbar">
+        <div class="container">
+          <ul class="navbar-menu">
+            <li><a href="">Log In</a></li>
+            <li><a href="">Sign Up</a></li>
+           <li><a href="exit.html">Exit</a></li>
+          </ul>
+  
+          <a href="#" class="callback">My notes</a>
+     </div>
+        </div>
+      </nav>
+    <form method="POST">
+      <textarea name="comment"> </textarea>
+      <div>
+        <button type="sumbit">coments</button>
+      </div>
+    </form>
+    {{ range . }}
+    <div>{{ . }}</div>
+    {{ end }}
+  </body>
+</html>
